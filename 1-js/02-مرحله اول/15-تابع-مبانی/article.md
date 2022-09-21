@@ -71,7 +71,7 @@ alert( message ); // <-- Error! The variable is local to the function
 
 ## متغیرهای بیرونی (Outer variables)
 
-یک تابع می‌تواند به متغیر درونی دسترسی داشته باشد، به عنوان مثال:
+یک تابع می‌تواند به متغیر بیرونی دسترسی داشته باشد، به عنوان مثال:
 
 ```js run no-beautify
 let *!*userName*/!* = 'John';
